@@ -1,0 +1,48 @@
+{
+    "expo": {
+        "name": "GRIHGO Customer",
+        "slug": "grihgo-customer-app",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/logo.png",
+        "userInterfaceStyle": "automatic",
+        "scheme": "grihgo-customer",
+        "splash": {
+            "image": "./assets/logo.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#FFFFFF"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.grihgo.customer"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/logo.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "com.grihgo.customer"
+        },
+        "web": {
+            "favicon": "./assets/logo.png",
+            "bundler": "metro"
+        },
+        "plugins": [
+            "expo-router"
+        ],
+        "experiments": {
+            "typedRoutes": true
+        },
+        "extra": {
+            "router": {
+                "origin": false
+            },
+            "eas": {
+                "projectId": "454bb211-9ae0-439b-883e-bdf7093b2194"
+            }
+        }
+    }
+}
